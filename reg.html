@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>線上報名</title>
+  </head>
+  <body>
+    <header>
+        <h1>報名表單</h1>
+    </header>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/viewform" method="get">
+        <label for="inpName">姓名</label>
+        <input type="text" name="entry.1339495092" id="inpName" required="required" size="10" title="Please fill out this blank."/> 
+        <br>
+        <label for="inpApartType">學院</label>
+        <input type="text" name="entry.1944781450" id="inpApartType" required="required" list="apartType" placeholder="請選擇" title="Please fill out this blank."/>
+        <datalist id="apartType">
+            <option value="文學院" />
+            <option value="理學院" />
+            <option value="社會科學學院" />
+            <option value="法學院" />
+            <option value="商學院" />
+            <option value="外國語文學院" />
+            <option value="傳播學院" />
+            <option value="國際事務學院" />
+            <option value="教育學院" />
+        </datalist>
+        <br>
+        <label for="inpCell">手機</label>
+        <input type="tel" name="entry.795504394" id="inpCell" size="10" placeholder="0912345678" maxlength="10" required pattern="[0-9]{10}" title="Please match the requested format."/>
+        <br>
+        <label for="inpE">Email</label>
+        <input type="email" name="entry.560282373" id="inpE" required="required" placeholder="web123@gmail.com" title="Please fill out this blank."/>
+        <br>
+        <label for="inpBirth">生日</label>
+        <input type="date" name="entry.324774019" id="inpBirth"  min="1900-01-01" max="2017-03-09" >
+        <input type="hidden" name="entry.189820201" value="103302055">
+        <br><br>
+        <input type="submit" value="註冊">
+    </form>
+    
+    
+  </body>
+</html>
