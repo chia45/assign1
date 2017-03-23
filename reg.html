@@ -1,15 +1,17 @@
 <!DOCTYPE html> 
 <html>
   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="reg.css">
     <title>線上報名</title>
   </head>
   <body>
     <header>
         <h1>報名表單</h1>
     </header>
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/viewform" method="get">
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse" method="get">
         <label for="inpName">姓名</label>
-        <input type="text" name="entry.1339495092" id="inpName" required="required" size="10" title="Please fill out this blank."/> 
+        <input type="text" name="entry.1339495092" id="inpName" required="required"  title="Please fill out this blank."/> 
         <br>
         <label for="inpApartType">學院</label>
         <input type="text" name="entry.1944781450" id="inpApartType" required="required" list="apartType" placeholder="請選擇" title="Please fill out this blank."/>
@@ -26,25 +28,17 @@
         </datalist>
         <br>
         <label for="inpCell">手機</label>
-        <input type="tel" name="entry.795504394" id="inpCell" size="10" placeholder="0912345678" maxlength="10" required pattern="[0-9]{10}" title="Please match the requested format."/>
+        <input type="tel" name="entry.795504394" id="inpCell"  required="required" placeholder="0912345678" maxlength="10" required pattern="[0-9]{10}" title="Please match the requested format."/>
         <br>
         <label for="inpE">Email</label>
         <input type="email" name="entry.560282373" id="inpE" required="required" placeholder="web123@gmail.com" title="Please fill out this blank."/>
         <br>
         <label for="inpBirth">生日</label>
         <input type="date" name="entry.324774019" id="inpBirth"  max="2017-03-09" placeholder="yyyy/mm/dd"/>
-      
-       
         <input type="hidden" name="entry.189820201" value="103302055">
         <br><br>
         <input type="submit" value="註冊">
     </form>
-    <script>
-      var i = document.createElement("input");
-      i.setAttribute("type", "date");
-      if (i.type == "text") {
-      }
-    </script>
 
   </body>
 </html>

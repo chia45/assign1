@@ -1,0 +1,22 @@
+body{
+    margin: 10em auto;
+    width: 30%;
+}
+form{
+    display: block;
+}
+input{
+    padding: .5em;
+}
+[required=required]:valid{
+    background-color: #9DE2D1;
+}
+[type=date]{
+    background-color: #9DE2D1;
+}
+[type=submit]{
+    background-color: #32906e;
+}
+[type=submit]:hover{
+    background-color: #39b287;
+}

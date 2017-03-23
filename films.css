@@ -1,0 +1,62 @@
+.ALLfilms{ 
+    width: 45%; 
+    padding: 1em 2em;
+    float: left;
+}
+
+aside{ 
+    width: 50%;
+    float: right;
+}
+section[class^=film]{
+    width: 25%;
+    display: block;
+}
+.filmsConnect .ink{ 
+    float: left;
+} 
+section>span{ 
+    font-size: 16px; 
+    color: cornflowerblue;
+}
+
+.ALLfilms>div{ 
+    line-height: 2;
+}
+.ALLfilms>p{ 
+    margin: 2.5em;
+}
+aside>h1>img:hover{ 
+    opacity: 0.6;
+}
+a:link{ 
+    color: mediumseagreen;
+}
+a:visited{ 
+    color: indianred;
+}
+a:hover{ 
+    color:darkgreen;
+}
+.noticeCH{
+    width: 50%;
+    float: left;
+}
+.noticeEN{
+    width: 50%;
+    float: right;
+}
+footer>address{
+    width: 50%;
+}
+address>img{ 
+    float: left;
+}
+address>span{
+    display: inline-block;
+}
+footer>il{
+    display: inline-block;
+    width: 50%;
+    line-height: 1.5;
+}
